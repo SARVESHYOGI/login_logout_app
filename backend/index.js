@@ -3,7 +3,7 @@ const app = express();
 const bodyParser = require('body-parser');
 const cors = require('cors');
 const AuthRouter = require('./Routes/AuthRouter.js');
-const ProductRouter = require('./Routes/ProductRouter.js');
+const ProductRouter = require('./Routes/productRouter.js');
 
 require('dotenv').config();
 require('./Models/db');
