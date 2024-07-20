@@ -1,4 +1,4 @@
-const ensureAuthenticated = require('../Middlewares/Auth');
+const ensureAuthenticated = require('../Middlewares/Auth.js');
 
 const router = require('express').Router();
 
